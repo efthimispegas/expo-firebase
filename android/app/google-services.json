@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "585925323977",
+    "project_id": "expo-firebase-0001",
+    "storage_bucket": "expo-firebase-0001.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:585925323977:android:4ae3b2d2722ae54c597118",
+        "android_client_info": {
+          "package_name": "com.expofirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIWqp9KHCyAq2z2O0PWRdsz3umwb7WgTA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

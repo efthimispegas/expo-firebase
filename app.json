@@ -2,6 +2,26 @@
   "expo": {
     "name": "expo-firebase",
     "slug": "expo-firebase",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "android": {
+      "googleServicesFile": "./android/app/google-services.json",
+      "package": "com.expofirebase"
+    },
+    "ios": {
+      "googleServicesFile": "./ios/GoogleService-Info.plist",
+      "bundleIdentifier": "org.name.expofirebase"
+    },
+    "plugins": [
+        "@react-native-firebase/app",
+        "@react-native-firebase/auth",
+        [
+          "expo-build-properties",
+          {
+            "ios": {
+              "useFrameworks": "static"
+            }
+          }
+        ]
+      ]
   }
 }
